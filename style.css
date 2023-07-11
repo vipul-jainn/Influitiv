@@ -1,0 +1,444 @@
+/* css reset */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;   
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    /* height: 10000px; */
+    cursor:default;
+    /* background-color: red; */
+}
+
+
+/* nva bar */
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    background-color:rgb(6, 54, 94);
+    opacity: 0.85;
+}
+
+ /* navbar logo */
+ #navbar .logo{
+     margin: 12px 23px;
+     padding: 13px 35px;
+ }
+ #navbar .logo h3{
+    color: white;
+    font-size: 32px;
+ }
+
+ /* navbar ul */
+ #navbar ul{
+     display: flex; 
+ }
+
+ #navbar ul li{
+    list-style: none;
+    font-size: 18px;
+ }
+
+ #navbar ul li a{
+     text-decoration: none;
+     display: inline-block;
+     padding: 12px 23px;
+     color: white;
+     font-size: 20px;
+     font-weight: 400;
+ }
+
+ #navbar ul li a:hover{
+     color: rgb(114, 170, 196);
+ }
+
+ /* home-section */
+ #home{
+     display: flex;
+     justify-content: center;
+     height: 700px;
+     align-items:flex-end;
+     position: relative;
+     
+ }
+
+ #home::before{
+    content: "";
+    background: url('../../about\ back2.jpg') no-repeat center center/cover;
+    position: absolute;
+    height:100%;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.89;
+}
+
+/* home box */
+#home .box1{
+    padding: 12px 35px;
+    width: 35%;
+    height: 25%;
+    /* border: 2px solid red; */
+    background-color: white;
+    box-shadow: 8px 3px 12px rgba(0, 0,0, 0.3);
+    border-radius: 2px;
+}
+
+#home .box1 h3{
+    font-size: 35px;
+    margin-top: 8px;
+    text-align: center;
+    color: rgb(13, 82, 122);
+    padding: 0px 10px 14px 10px;
+    font-family:'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+#home  a{
+    text-decoration: none;
+}
+
+#home .box1 .book-me{
+    width: 45%;
+    display: block;
+    font-size: 22px;
+    margin: 8px auto;
+    padding: 7px;
+    border-color:rgb(10, 82, 150); 
+    background-color: white;
+    font-weight: 500;
+    font-style:italic;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(4, 43, 82); 
+    cursor: pointer;
+}
+
+#home .box1 .book-me:hover{
+    background-color: rgb(7, 86, 138); 
+    color: white;
+}
+
+
+
+/* #home .box1 p{
+    font-size: 18px;
+    padding: 5px 25px;
+} */
+
+/* work-section */
+#work{
+    display: flex;
+    justify-content: center;
+    margin: 50px 0px;
+    /* border: 2px solid red; */
+    height: 350px;
+}
+#work .boxa{
+    width: 20%;
+    /* border: 2px solid black; */
+    margin: 8px 7px;
+    text-align: center;
+    border-radius: 4px;
+    box-shadow: 0px 5px 10px rgba(2, 52,94, 0.3);
+}
+
+#work .boxa h3{
+    font-size: 40px;
+    padding: 15px;
+    color: rgb(6, 48, 87); 
+    /* text-shadow: 0px 5px 10px rgba(2, 52,94, 0.3); */
+}
+
+#work .boxa p{
+    font-size: 20px;
+    padding: 12px 23px;
+    font-weight: 400;
+}
+
+#work .boxa .work-btn{
+    padding: 10px 30px;
+    margin: 8px 30px;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0px 5px 10px rgba(2, 52,94, 0.3);
+    background-color: white;
+    font-size: 22px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(11, 24, 36);
+    cursor: pointer;
+}
+
+#work .boxa .work-btn:hover{
+    background-color:rgb(18, 79, 136); 
+    color: white;
+}
+
+/* About us - section */
+#about{
+    display: flex;
+    justify-content: center;
+    /* border: 2px solid red; */
+    height: 550px;
+    margin: 50px 0px;
+    position: relative;
+}
+
+#about .about-us h2{
+    font-size: 50px;
+    text-align: center;
+    color:  rgb(7, 25, 43);
+    padding: 22px 23px;
+    font-weight: 800;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#about .mainus{
+    display: flex;
+    justify-content: center;
+}
+
+#about .mainus p{
+    /* border: 2px solid red; */
+    border-radius: 4px;
+    display: inline-block;
+    position: relative;
+    width: 40%;
+    height: 400px;
+    padding: 25px 23px;
+    font-size: 20px; 
+    font-weight: 700;   
+    box-shadow: 0px 5px 10px rgba(1, 29, 51, 0.3); 
+    margin: 0px 5px;
+    text-align: center;
+}
+
+
+#about .img1 img{
+    height: 400px;
+    width: 600px;
+    box-shadow: 0px 5px 10px rgba(2, 52,94, 0.3); 
+}
+
+#about .aboutbtn{
+    margin:14px 23px;
+    padding: 10px 35px;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0px 5px 10px rgba(2, 52,94, 0.3);
+    background-color: white;
+    font-size: 22px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(12, 38, 63);
+    cursor: pointer;
+}
+
+#about .aboutbtn:hover{
+    background-color:rgb(28, 122, 209); 
+    color: white;
+}
+
+#about::before{
+    content: "";
+    background: url('../../img1/about\ back2.jpg') no-repeat bottom center/cover;
+    position: absolute;
+    height:100%;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.7;
+}
+
+/* client section */
+#client{
+    display: flex;
+    justify-content: center;
+    /* border: 2px solid rgb(201, 26, 26); */
+    height: 400;
+    margin: 40px 0px;
+    position: relative;
+    flex-direction: column;
+}
+
+#client h2{
+    text-align: center;
+    margin: 12px 23px;
+    padding: 12px 23px;
+    font-size: 58px;
+    font-weight: 800;
+    color: rgb(10, 94, 133);
+}
+
+#client .vj{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#image{
+    width: 15%;
+    height: 250px;
+    margin: 0px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 14px;
+    box-shadow: 0px 5px 10px rgba(0, 0,0, 0.3);
+}
+
+#image .image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image img{
+    width: 90%;
+    height: 80% ;
+}
+
+
+/* contact section*/
+#contact{
+    position: relative;
+    height:550px ;
+}
+
+#contact::before{
+    content: "";
+    background: url('../../img1/home1.jpg') no-repeat center center/cover;
+    position: absolute;
+    height:100%;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.7;
+}
+
+#contact .con{
+    text-align: center;
+    padding: 30px 23px;
+    font-size: 42px;
+}
+
+#contact-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+    margin: 15px;
+}
+
+#contact-box form{
+    width: 40%;
+}
+
+#contact-box label{
+    font-size: 24px;
+    font-family: 'Bree Serif', serif;
+}
+
+#contact-box input,
+#contact-box textarea{
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1rem;
+}
+
+#contact-box input{
+    background-color: transparent;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom-color:rgb(11, 24, 36) ;
+    outline: none;
+}
+
+#contact-box textarea{
+    background-color: transparent;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 2px solid;
+    border-bottom-color:rgb(11, 24, 36) ;
+    outline: none;
+}
+
+::-webkit-input-placeholder{
+    color: rgb(12, 38, 63);
+    font-style: italic;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+#contact #btncon{
+    display: block;
+    margin: 12px auto;
+    padding: 8px 30px;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0px 5px 10px rgba(2, 52,94, 0.3);
+    background-color: white;
+    font-size: 22px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(11, 24, 36);
+    cursor: pointer;
+}
+
+#contact #btncon:hover{
+    background-color:rgb(18, 79, 136); 
+    color: white;
+}
+
+/* footer-section */
+#footer{
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    /* border: 2px solid red; */
+    margin: 0px 0px;
+    color: white;
+    background-color:rgb(6, 54, 94);
+    align-items: center;
+}
+
+#footer .footer {
+    font-size: 22px;
+    font-family: 'Times New Roman', Times, serif;
+    display: block;
+    margin: 0px;
+}
+
+#footer .dnavbar ul{
+    display: flex;
+    list-style: none;
+    padding: 12px 23px;
+}
+
+#footer .dnavbar ul a{
+text-decoration: none;
+color: white;
+padding: 12px 15px;
+font-size: 20px;
+}
+
+#footer .dnavbar ul a:hover{
+color: rgb(114, 170, 196);
+}
+
+#foot .vipul{
+ float: right;
+ font-size: 18px;
+}
+
+
+

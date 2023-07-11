@@ -1,0 +1,94 @@
+/* css reset */
+
+/* nva bar */
+
+ /* navbar logo */
+
+ /* navbar ul */
+ #navbar ul{
+     overflow: hidden;
+ }
+
+
+ #navbar ul li a{
+     padding: 12px 10px;
+     font-size: 18px;
+     font-weight: 400;
+ }
+
+ /* sevice-section  */
+
+ #service .box{
+     width: 55%;
+     padding: 10px 0px;
+ }
+
+
+#service .box .main-part{
+    flex-direction: column;
+}
+
+ #service .image{
+     width: 350px;
+     height: 250px;
+    margin: auto;
+    margin-bottom: 10px;
+ }
+
+
+ #service .main-part p{
+     padding: 8px 20px;
+     font-size: 20px;
+ }
+
+ #service .btn-main{
+     width: 25%;
+     font-size: 18px;
+     font-weight: 600;
+ }
+
+
+ /* contact section*/
+
+#contact-box form{
+    width: 50%;
+}
+
+#contact-box label{
+    font-size: 22px;
+}
+
+
+::-webkit-input-placeholder{
+    font-size: 14px;
+}
+
+#contact #btncon{
+    padding: 8px 15px;
+    font-size: 18px;
+}
+
+
+
+/* footer-section */
+
+#footer .footer{
+    font-size: 18px;
+}
+
+#footer .dnavbar ul{
+    padding: 12px 5px;
+}
+
+#footer .dnavbar ul a{
+padding: 10px 8px;
+font-size: 16px;
+}
+
+#foot .vipul{
+ font-size: 16px;
+}
+
+
+
+

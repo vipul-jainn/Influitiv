@@ -1,0 +1,282 @@
+/* css reset */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;   
+}
+
+body{
+    /* height: 10000px; */
+    cursor:default;
+    /* background-color: red; */
+}
+
+/* nva bar */
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    background-color: rgb(6, 54, 94);
+    opacity: 0.85;
+}
+
+ /* navbar logo */
+ #navbar .logo{
+     margin: 12px 23px;
+     padding: 13px 35px;
+ }
+ #navbar .logo h3{
+    color: white;
+    font-size: 32px;
+ }
+
+ /* navbar ul */
+ #navbar ul{
+     display: flex; 
+     margin-right: 24px;
+ }
+
+ #navbar ul li{
+    list-style: none;
+    font-size: 18px;
+ }
+
+ #navbar ul li a{
+     text-decoration: none;
+     display: inline-block;
+     padding: 12px 23px;
+     color: white;
+     font-size: 20px;
+     font-weight: 400;
+ }
+
+ #navbar ul li a:hover{
+     color: rgb(114, 170, 196);
+ }
+
+ /* sevice-section  */
+ #service{
+     display: block;
+     justify-content: center;
+     margin: 12px 23px;
+     padding: 12px 23px;
+     /* border: 2px solid red; */
+ }
+
+ #service .box{
+     
+     /* border: 2px solid red; */
+     width: 55%;
+     box-shadow: 0px 5px 10px rgba(0, 0,0,0.3);
+     border-radius: 14px;
+     padding: 12px 23px;
+     margin: 30px auto;
+ }
+
+#service .box h3{
+    text-align: center;
+    font-size: 35px;
+    color: rgb(11, 49, 80);
+    padding: 10px;
+}
+
+#service .box .main-part{
+    display: flex;
+}
+
+ #service .image{
+     width: 400px;
+     height: 250px;
+     padding: 0px 0px;
+     border-radius: 40px;
+     box-shadow: 0px 5px 10px rgba(0, 0,0,0.3);
+ }
+
+ #service .main-part p{
+     
+     padding: 8px 23px;
+     font-size: 20px;
+ }
+
+
+ #service .box .money{
+    text-align: center;
+    font-size: 15px;
+    color: rgb(11, 49, 80);
+    padding: 10px;
+}
+
+#service .main .money strong{
+    width: auto;
+    display: block;
+     margin:  auto;
+    font-size: 24px;
+
+}
+
+#service a{
+    text-decoration: none;
+}
+
+ #service .btn-main{
+     width: 25%;
+     display: block;
+     margin: auto ;
+     padding: 5px 0px;
+     border-color:rgb(11, 49, 80);
+     border-radius: 5px;
+     background-color: white;
+     font-size: 18px;
+     font-style: italic;
+     font-weight: 800;
+     font-family: 'Times New Roman', Times, serif;
+     cursor: pointer;
+ }
+
+
+
+ #service .btn-main:hover{
+     background-color:rgb(11, 49, 80);
+     color: white;
+ }
+
+ /* contact section*/
+#contact{
+    position: relative;
+    height:550px ;
+    
+}
+
+#contact::before{
+    content: "";
+    background: url('../../img1/home1.jpg') no-repeat center center/cover;
+    position: absolute;
+    height:100%;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.7;
+}
+
+#contact .con{
+    text-align: center;
+    padding: 30px 23px;
+    font-size: 42px;
+}
+
+#contact-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+    margin: 15px;
+}
+
+#contact-box form{
+    width: 40%;
+}
+
+#contact-box label{
+    font-size: 24px;
+    font-family: 'Bree Serif', serif;
+}
+
+#contact-box input,
+#contact-box textarea{
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1rem;
+}
+
+#contact-box input{
+    background-color: transparent;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom-color:rgb(11, 24, 36) ;
+    outline: none;
+}
+
+#contact-box textarea{
+    background-color: transparent;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 2px solid;
+    border-bottom-color:rgb(11, 24, 36) ;
+    outline: none;
+}
+
+::-webkit-input-placeholder{
+    color: rgb(12, 38, 63);
+    font-style: italic;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+#contact #btncon{
+    display: block;
+    margin: 12px auto;
+    padding: 8px 30px;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0px 5px 10px rgba(2, 52,94, 0.3);
+    background-color: white;
+    font-size: 22px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(11, 24, 36);
+    cursor: pointer;
+}
+
+#contact #btncon:hover{
+    background-color:rgb(18, 79, 136); 
+    color: white;
+}
+
+
+/* footer-section */
+#footer{
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    /* border: 2px solid red; */
+    margin: 0px 0px;
+    color: white;
+    background-color:rgb(6, 54, 94);
+    align-items: center;
+}
+
+#footer .footer{
+    font-size: 22px;
+    font-family: 'Times New Roman', Times, serif;
+    display: block;
+    margin: 0px ;
+}
+
+#footer .dnavbar ul{
+    display: flex;
+    list-style: none;
+    padding: 12px 23px;
+}
+
+#footer .dnavbar ul a{
+text-decoration: none;
+color: white;
+padding: 12px 15px;
+font-size: 20px;
+}
+
+#footer .dnavbar ul a:hover{
+color: rgb(114, 170, 196);
+}
+
+#foot .vipul{
+ float: right;
+ font-size: 18px;
+}
+
+
+
+

@@ -1,0 +1,190 @@
+/* css reset */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;   
+}
+
+body{
+    /* height: 10000px; */
+    cursor:default;
+    /* background-color: red; */
+}
+
+/* nva bar */
+#navbar{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    background-color: rgb(6, 54, 94);
+    opacity: 0.85;
+}
+
+ /* navbar logo */
+ #navbar .logo{
+     margin: 12px 6px;
+     padding: 13px 2px;
+ }
+ #navbar .logo h3{
+    color: white;
+    font-size: 25px;
+ }
+
+ /* navbar ul */
+ #navbar ul{
+     margin-right: 10px;
+
+ }
+
+ #navbar ul li{
+    list-style: none;
+    font-size: 15px;
+ }
+
+ #navbar ul li a{
+     text-decoration: none;
+     display: inline-block;
+     color: white;
+     padding: 12px 8px;
+     font-size: 18px;
+     font-weight: 400;
+ }
+
+ #navbar ul li a:hover{
+     color: rgb(114, 170, 196);
+ }
+
+ /* sevice-section  */
+ #service{
+     display: block;
+     justify-content: center;
+     margin: 12px 23px;
+     padding: 12px 23px;
+     /* border: 2px solid red; */
+ }
+
+ #service .box{
+     
+     /* border: 2px solid red; */
+     box-shadow: 0px 5px 10px rgba(0, 0,0,0.3);
+     border-radius: 14px;
+     margin: 30px auto;
+     width:100%;
+     padding: 10px 0px;
+ }
+
+#service .box h3{
+    text-align: center;
+    font-size: 18px;
+    color: rgb(11, 49, 80);
+    padding: 10px;
+}
+#service .box .main-part{
+    flex-direction: column;
+}
+
+ #service .image{
+     width: 150px;
+     height:100px;
+     padding: 0px 0px;
+     border-radius: 40px;
+     box-shadow: 0px 5px 10px rgba(0, 0,0,0.3);
+ }
+
+
+ #service .image img{
+    width: 100%;
+    height: 100%;
+}
+ #service .main-part p{
+     
+     padding: 8px 23px;
+     font-size: 16px;
+ }
+
+
+ #service .box .money{
+    text-align: center;
+    font-size: 15px;
+    color: rgb(11, 49, 80);
+    padding: 10px;
+}
+
+#service .main .money strong{
+  
+    font-size: 15px;
+
+}
+
+#service a{
+    text-decoration: none;
+}
+
+ #service .btn-main{
+     width: 25%;
+     font-size: 16px;
+     font-weight: 400;
+     
+ }
+
+#contact .con{
+    font-size: 38px;
+}
+
+
+#contact-box form{
+    width: 75%;
+}
+
+#contact-box label{
+    font-size: 18px;
+}
+
+
+
+
+::-webkit-input-placeholder{
+    font-size: 12px;
+}
+
+#contact #btncon{
+    padding: 8px 15px;
+    font-size: 16px;
+}
+
+
+
+/* footer-section */
+
+#footer{
+  flex-direction: column;
+}
+
+
+#footer .footer{
+    font-size: 14px;
+    text-align: center;
+}
+
+#footer .dnavbar ul{
+    display: flex;
+    list-style: none;
+    padding: 12px 10px;
+}
+
+#footer .dnavbar ul a{
+
+padding: 12px 10px;
+font-size: 14px;
+}
+
+
+#foot .vipul{
+ float: right;
+ font-size: 15px;
+}
+
+
+

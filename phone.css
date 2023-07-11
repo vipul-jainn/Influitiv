@@ -1,0 +1,179 @@
+
+/* nva bar */
+
+ /* navbar logo */
+ #navbar .logo{
+    margin: 10px 10px;
+    padding: 10px 20px;
+}
+#navbar .logo h3{
+   color: white;
+   font-size: 25px;
+}
+
+/* navbar ul */
+
+#navbar ul li{
+   font-size: 16px;
+}
+
+#navbar ul li a{
+    padding: 12px 5px;
+    font-size: 17px;
+}
+
+/* home-section */
+
+/* home box */
+#home .box1{
+   padding: 12px 20px;
+   width: 60%;
+}
+
+#home .box1 h3{
+   font-size: 30px;
+   padding: 10px 10px;
+}
+
+#home .box1 .book-me{
+   font-size: 18px;
+   width: 45%;
+   padding: 0px;
+}
+
+/* work-section */
+#work{
+   margin: 50px 0px;
+   height: 300px;
+}
+#work .boxa{
+   width: 33%;
+   height:95%;
+}
+
+#work .boxa h3{
+   font-size: 30px;
+}
+
+#work .boxa p{
+   font-size:16px;
+   padding: 12px 5px;
+}
+
+#work .boxa .work-btn{
+   font-size: 15px;
+}
+#work .boxa .work-btn {
+    padding: 10px 10px;
+    margin: 4px 30px;
+    
+}
+/* About us - section */
+#about .about-us h2{
+   font-size: 40px;
+}
+#about .mainus{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+#about .mainus p{
+   padding: 0px 2px;
+   padding-top: 10px;
+   display: block;
+    margin: auto;
+   width: 90%;
+   height: auto;
+   font-size: 16px; 
+   font-weight: 0;   
+}
+
+#about .aboutbtn {
+   font-size: 14px;
+}
+
+#about .img1 img{
+   height: 200px;
+   border-radius: 4px;
+   display: block;
+   width: 300px;
+   margin:auto 
+}
+
+/* client section */
+#client{
+   display: flex;
+   justify-content: center;
+   /* border: 2px solid rgb(201, 26, 26); */
+   height: 200px;
+   margin: 40px 0px;
+   position: relative;
+   flex-direction: column;
+}
+
+#client h2{
+   text-align: center;
+   margin: 12px 23px;
+   padding: 12px 23px;
+   font-size: 50px;
+   font-weight: 800;
+   color: rgb(10, 94, 133);
+}
+
+#client .vj{
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+}
+
+
+#image {
+    width: 15%;
+    height: 140px;
+    border-radius: 14px;
+    box-shadow: none;
+}
+
+
+.image img{
+    width: 100%;
+    height: 100% ;
+}
+
+/* contact section*/
+
+#contact-box form{
+   width: 60%;
+}
+
+#contact-box label{
+   font-size: 24px;
+   font-family: 'Bree Serif', serif;
+}
+
+#contact #btncon{
+  font-size: 18px;
+}
+
+/* footer-section */
+
+#footer .footer {
+   font-size: 18px;
+   margin: 2px;
+}
+
+#footer .dnavbar ul{
+   padding: 12px 15px;
+}
+
+#footer .dnavbar ul a{
+padding: 12px 8px;
+font-size: 16px;
+}
+
+#foot .vipul{
+font-size: 16px;
+}
+
+
+

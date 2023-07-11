@@ -1,0 +1,158 @@
+/* css reset */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;   
+}
+
+body{
+    /* height: 10000px; */
+    cursor:default;
+    /* background-color: red; */
+}
+
+/* nva bar */
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    background-color:rgb(6, 54, 94);
+    opacity: 0.85;
+}
+
+ /* navbar logo */
+ #navbar .logo{
+     margin: 12px 23px;
+     padding: 13px 35px;
+ }
+ #navbar .logo h3{
+    color: white;
+    font-size: 32px;
+ }
+
+ /* navbar ul */
+ #navbar ul{
+     display: flex; 
+     margin-right: 24px;
+ }
+
+ #navbar ul li{
+    list-style: none;
+    font-size: 18px;
+ }
+
+ #navbar ul li a{
+     text-decoration: none;
+     display: inline-block;
+     padding: 12px 10px;
+     color: white;
+     font-size: 18px;
+     font-weight: 400;
+ }
+
+ #navbar ul li a:hover{
+     color: rgb(114, 170, 196);
+ }
+
+ /* project-section */
+ #project{
+     height: 700px;
+ }
+
+ #project .box{
+     /* border: 2px solid red; */
+     width: 65%;
+     height: 300px;
+     margin: 22px 15px;
+     padding: 12px 23px;
+    }
+
+    
+ #project .image{
+    width: 300px;
+    height: 200px;
+    margin: 15px 0px;
+    padding: 0px 0px;
+    border-radius: 40px;
+    box-shadow: 0px 5px 10px rgba(0, 0,0,0.3);
+ }
+
+ #project .main{
+     padding: 12px 15px;
+ }
+ #project .main h2{
+     color: rgb(6, 54, 94);
+     margin: 5px 0px;
+ }
+
+ #project .main p{
+     padding: 0px 0px;
+     font-size: 16px;
+ }
+
+/* project-section1 */
+
+ #project1{
+    height: 700px;
+}
+
+#project1 .box1{
+    /* border: 2px solid red; */
+    width: 65%;
+    height: 300px;
+    padding: 12px 15px;
+   }
+   
+#project1 .image1{
+   width: 300px;
+   height: 200px;
+   padding: 0px 0px;
+}
+
+
+#project1 .main1{
+    padding: 12px 15px;
+}
+
+#project1 .main1 p{
+    font-size: 16px;
+}
+
+ /* contact section*/
+
+#contact .con{
+    font-size: 38px;
+}
+
+#contact-box form{
+    width: 50%;
+}
+
+#contact-box label{
+    font-size: 20px;
+}
+
+#contact #btncon{
+    padding: 8px 20px;
+    font-size: 18px;
+}
+
+
+/* footer-section */
+
+#footer .footer{
+    font-size: 18px;
+}
+
+#footer .dnavbar ul{
+    padding: 12px 0px;
+}
+
+#footer .dnavbar ul a{
+font-size: 18px;
+padding: 12px 4px;
+
+}
+
+
